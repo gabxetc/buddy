@@ -1,5 +1,6 @@
 import 'package:buddy_application/utils/theme/custom_themes/appbar_theme.dart';
 import 'package:buddy_application/utils/theme/custom_themes/elevated_button_theme.dart';
+import 'package:buddy_application/utils/theme/custom_themes/outlined_button_theme.dart';
 import 'package:buddy_application/utils/theme/custom_themes/text_field_theme.dart';
 import 'package:buddy_application/utils/theme/custom_themes/text_theme.dart';
 import 'package:flutter/material.dart';
@@ -22,6 +23,8 @@ class BAppTheme {
       appBarTheme: BAppBarTheme.lightAppBarTheme,
       elevatedButtonTheme: BElevatedButtonTheme.lightElevatedButtonTheme,
       inputDecorationTheme: BTextFormFieldTheme.lightInputDecorationTheme,
+      outlinedButtonTheme: BOutlineButtonTheme.lightOutlinedButtonTheme,
+      
   );
 
   static ThemeData darkTheme = ThemeData(
@@ -34,5 +37,6 @@ class BAppTheme {
       appBarTheme: BAppBarTheme.darkAppBarTheme,
       elevatedButtonTheme: BElevatedButtonTheme.darkElevatedButtonTheme,
       inputDecorationTheme: BTextFormFieldTheme.darkInputDecorationTheme,
+      outlinedButtonTheme: BOutlineButtonTheme.darkOutlinedButtonTheme,
       );
 }

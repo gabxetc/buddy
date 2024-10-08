@@ -24,7 +24,6 @@ class MyApp extends StatelessWidget {
     throw UnimplementedError();
   }
 
-  BColors
 }
 
 // import 'package:buddy_application/eish/tester.dart';

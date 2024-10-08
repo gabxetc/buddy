@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 // This class conatins all the App text in string formats
 
 class BTexts {
-  // example:
+  // examples:
   // static const String onBoardingTitle1 = "Choose your product";
   // static const String onBoardingTitle2 = "Select Payment Method";
 

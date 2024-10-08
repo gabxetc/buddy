@@ -6,10 +6,10 @@ class BImages {
   BImages._();
 
   // App logos
-  static const String darkAppLogo = '';
-  static const String lightAppLogo = '';
+  static const String darkAppLogo = 'path/to/image';
+  static const String lightAppLogo = 'path/to/image';
 
   // Socials Logo
-  static const String google = '';
-  static const String facebook = '';
+  static const String google = 'path/to/image';
+  static const String facebook = 'path/to/image';
 }

@@ -40,12 +40,6 @@ class _SplashScreenState extends State<SplashScreen>
       home: Scaffold(
         body: Container(
           color: const Color.fromRGBO(117, 169, 85, 1.0),
-          //     decoration: BoxDecoration(
-          //         gradient: LinearGradient(
-          //   colors: [Colors.blue, Colors.purple],
-          //   begin: Alignment.bottomRight,
-          //   end: Alignment.bottomLeft,
-          // ))
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
