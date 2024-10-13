@@ -7,7 +7,7 @@ class BFormatter {
   }
 
   static String formatCurrency(double amount) {
-    return NumberFormat.currency(locale: 'en_ZA', symbol: '\R').format(amount);
+    return NumberFormat.currency(locale: 'en_ZA', symbol: 'R').format(amount);
   }
 
   static String formatPhoneNumber(String phoneNumber) {
