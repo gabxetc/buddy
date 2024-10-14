@@ -7,7 +7,6 @@ buildscript {
         classpath 'com.android.tools.build:gradle:8.0.0' // Ensure this is the correct version
     }
 }
-
 allprojects {
     repositories {
         google()
