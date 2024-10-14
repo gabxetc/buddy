@@ -1,15 +1,14 @@
 flutter_native_splash:
-  android: true
-  ios: true
-  web: false
-
   color: "#FFFFFF"
   color_dark: "#272727"
-  image: "/home/gabxetc/solutions/buddy/assets/logos/buddy_light.png"
-  image_dark: "/home/gabxetc/solutions/buddy/assets/logos/buddy_dark.png"
+  image: "assets/logos/buddy_light.png"
+  image_dark: "assets/logos/buddy_dark.png"
 
 android_12:
   color: "#FFFFFF"
   color_dark: "#272727"
-  image: "/home/gabxetc/solutions/buddy/assets/logos/buddy_light.png"
-  image_dark: "/home/gabxetc/solutions/buddy/assets/logos/buddy_dark.png"
+  image: "assets/logos/buddy_light.png"
+  image_dark: "assets/logos/buddy_dark.png"
+
+web: false
+ios: true
