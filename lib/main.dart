@@ -4,6 +4,7 @@ void main() {
   runApp(const MyApp());
   WidgetsFlutterBinding.ensureInitialized();
   runApp(const MyApp());
+  
   // Todo: Add Widgets Binding
   // Todo: Init Local Storage
   // Todo: Await Native Splash

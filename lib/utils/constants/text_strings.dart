@@ -1,4 +1,3 @@
-
 // This class conatins all the App text in string formats
 
 class BTexts {
@@ -11,5 +10,8 @@ class BTexts {
 
   // static const String homeAppBarTitle = "Good day for shopping";
 
+  static const String onBoardingTitle1 = "Hello! Welcome to Buddy!";
+
+  static const String onBoardingSubtitle1 = "A helping hand when you need one.";
 
 }

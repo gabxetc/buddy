@@ -1,7 +1,6 @@
 import 'dart:io';
 import 'package:get/get.dart';
 
-
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -37,6 +36,14 @@ class BDeviceUtils {
   }
 
   static double getStatusBarHeight() {
+    return kBottomNavigationBarHeight;
+  }
+
+  static double getAppBarHeight() {
+    return kToolbarHeight;
+  }
+
+  static double getBottomNavigationBarHeight() {
     return kBottomNavigationBarHeight;
   }
 
